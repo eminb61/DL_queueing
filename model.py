@@ -79,3 +79,5 @@ with torch.no_grad():
 mean_loss = total_loss / len(test_loader)
 print(f'Mean Squared Error: {mean_loss}')
 
+# Save the model
+torch.save(model.state_dict(), 'model.pt')
