@@ -16,6 +16,6 @@ module load python/3.11
 source ~/queueing/bin/activate
 
 # Install requirements
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
-python queue_runner_pd.py
+python model.py
